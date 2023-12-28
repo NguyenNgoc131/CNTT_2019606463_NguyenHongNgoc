@@ -1,0 +1,20 @@
+.expert-image {
+    float: left;
+    width: 25%; /* Điều chỉnh độ rộng phần hình ảnh */
+    margin-right: 5%; /* Khoảng cách giữa phần hình ảnh và phần thông tin */
+}
+
+.expert-info {
+    float: left;
+    width: 70%; /* Điều chỉnh độ rộng phần thông tin */
+}
+
+.btn-date{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: medium;
+}
+
+#note{
+    font-style: italic;
+}

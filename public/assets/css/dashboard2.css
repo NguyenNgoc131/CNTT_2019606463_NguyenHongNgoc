@@ -1,0 +1,71 @@
+/* CSS cho việc căn giữa phần phân trang */
+.pagination-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CSS cho phần danh sách các trang */
+.pagination ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+/* CSS cho mỗi mục trong danh sách trang */
+.pagination li {
+    margin: 5px;
+    /* Khoảng cách giữa các mục */
+}
+
+/* .custom-table {
+    width: 100%;
+    display: block;
+    border-collapse: separate;
+    border-spacing: 20px;
+
+}
+
+
+.custom-table th, .custom-table td {
+    padding: 8px;
+    text-align: left;
+} */
+
+
+.custom-table th:nth-child(2) {
+    width: 35%;
+    /* Điều chỉnh độ rộng của cột "Tên gói thầu" */
+}
+
+.search-table {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 14px;
+}
+
+.search-bar {
+    order: 1;
+    /* Đặt "search-bar" ở bên trái */
+}
+
+.d-flex.justify-content-end {
+    order: 2;
+    /* Đặt "d-flex justify-content-end" ở bên phải */
+}
+
+.brand-name {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.m-t-md {
+    width: 20%;
+    position: absolute;
+    bottom: 0;
+    right: 25%;
+
+}
